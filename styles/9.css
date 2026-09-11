@@ -1,0 +1,58 @@
+.parent {
+	display: flex;
+	flex-wrap: wrap;
+	border: goldenrod solid 1vh;
+	width: 100vh;
+}
+
+.box {
+	color: white;
+	height: fit-content;
+	width: 30vh;
+	height: 10vh;
+	margin: 0.5vh 1vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: xx-large;
+}
+
+.box:first-child {
+	background-color: darkcyan;
+}
+
+.box:nth-child(2) {
+	background-color: cornflowerblue;
+}
+
+.box:nth-child(3) {
+	background-color: darkorchid;
+}
+
+.box:nth-child(4) {
+	background-color: rgb(26, 39, 45);
+}
+
+.box:nth-child(5) {
+	background-color: gold;
+}
+
+.box:nth-child(6) {
+	background-color: darkorange;
+}
+
+.box:nth-child(7) {
+	background-color: tomato;
+}
+
+.box:nth-child(8) {
+	background-color: lightgray;
+}
+
+.box:nth-child(9) {
+	background-color: mediumseagreen;
+}
+
+.box:last-child {
+	background-color: seagreen;
+}
