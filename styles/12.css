@@ -10,10 +10,17 @@ body {
 	flex: 1;
 }
 
+.main {
+	flex: 1;
+}
+
 header {
 	display: flex;
 	justify-content: space-between;
 	padding: 0;
+	flex: 1;
+	/* width: 100vh; */
+	/* border: 1px solid white; */
 }
 
 .search-section {
@@ -122,4 +129,56 @@ header {
 	font-size: 5vh;
 	/* flex: 2;
 	margin: auto 1vh; */
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	/* height: 100%; */
+	/* border: white solid 1px; */
+	height: 100vh;
+	justify-content: flex-start;
+	/* flex: 1; */
+	width: 12vh;
+}
+
+nav li{
+	list-style: none;
+	color: lightgrey;
+	margin-bottom: 2vh;
+	padding: 0;
+	/* flex: 1; */
+}
+
+li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	/* font-size: smaller; */
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+body {
+	display: flex;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li:first-child {
+	height: 5vh;
+}
+
+nav i {
+	font-size: x-large;
+	margin-bottom: 1vh;
+}
+
+nav label {
+	font-size: x-small;
 }
