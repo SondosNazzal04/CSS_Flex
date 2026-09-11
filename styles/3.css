@@ -1,0 +1,14 @@
+div {
+	background-color: steelblue;
+	color: white;
+	height: 2em;
+	width: 6em;
+	padding: 3px;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
