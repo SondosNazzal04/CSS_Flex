@@ -1,0 +1,19 @@
+.parent {
+	display: flex;
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.box:first-child {
+	background-color: turquoise;
+	flex: 2;
+}
+
+.box:last-child {
+	background-color: steelblue;
+	flex: 1;
+}
