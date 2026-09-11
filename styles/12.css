@@ -196,3 +196,55 @@ nav label {
 	border-radius: 0.3em;
 	margin: auto 0.5em;
 }
+
+.categories-bar li:first-child {
+	background-color: gray;
+	color: rgb(50, 50, 50);
+
+}
+
+.videos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.video-card {
+	flex: 1 1 50vh;
+	display: flex;
+	flex-direction: column;
+	margin: 2vh;
+	color: lightgray;
+}
+
+.video-description {
+	display: flex;
+}
+
+.channel-img {
+	/* border: 1px solid white; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* width: 7vh; */
+}
+
+.channel-img i {
+	/* width: 10vh; */
+	font-size: 5vh;
+	margin-right: 2vh;
+}
+
+.video-img {
+	height: 25vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:  rgb(50, 50, 50);
+}
+
+.text-description {
+	font-size: x-small;
+	padding: 0;
+	margin: 0;
+}
