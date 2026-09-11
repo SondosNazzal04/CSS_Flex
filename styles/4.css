@@ -1,0 +1,14 @@
+.parent {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.box {
+	background-color: steelblue;
+	width: 30vh;
+	color: white;
+	padding: 1vh;
+	border-radius: 1vh;
+	margin-left: 0.25vh;
+}
